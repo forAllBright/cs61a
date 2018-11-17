@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c478f2-cc60-485c-a1ed-014c12b3fcd0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/cs61a.iml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/1.6/main2.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/1.6/main3.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/1.6/main4.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/1.7/main1.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/1.7/main2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/1.7/main3.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/1.7/ucb.py" />
       <change beforePath="" afterPath="$PROJECT_DIR$/note.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ucb.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />

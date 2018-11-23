@@ -222,13 +222,13 @@ def balanced(m):
         return True
     pair = []
     for si in sides(m):
-        pair.append(length(si)  * total_weight(si))
-    assert lne(pair) >= 1
+        pair.append(length(si)  * total_weight(si[1]))
+    assert len(pair) >= 1
     if pair[0] != pair[1]:
         return False
     else:
         for si in sides(m):
-            if not balanced(si):
+            if not balanced(si[1]):
                 return False
         return True
 

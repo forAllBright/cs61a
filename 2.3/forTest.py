@@ -2,7 +2,7 @@
 # @Author: forAllBright
 # @Date:   2018-11-18 22:30:50
 # @Last Modified by:   forAllBright
-# @Last Modified time: 2018-11-18 22:38:46
+# @Last Modified time: 2018-11-21 14:13:39
 
 from ucb import trace
 
@@ -40,3 +40,29 @@ def make_withdraw(balance):
 
 wd = make_withdraw(20)
 print(wd(5))
+
+
+def sum_numbers(numbers=None):
+    if numbers == []:
+        return 0
+    elif numbers == None:
+        return sum_numbers(list(range(1, 101)))
+    else:
+        if len(numbers) == 1:
+            return numbers[0]
+        else:
+            return numbers[0] + sum_numbers(numbers[1:])
+
+
+su = sum_numbers([])
+print(su)
+
+
+def sum_num(numbers=None):
+    return sum(numbers) if numbers else sum(range(1,101))
+print(sum_num([1,2]))
+
+
+
+
+

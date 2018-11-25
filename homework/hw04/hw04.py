@@ -404,11 +404,16 @@ class centered_interval(interval):
         >>> -a
         centered_interval(-1.0, 2.0)
         """
-        "*** YOUR CODE HERE ***"
+        if tol is not None:
+            super().__init__(c - tol, c + tol)
+        else:
+            super().__init__(c.lo, c.hi)
 
     def make_interval(self, low, high):
         """Returns a centered interval whose bounds are LOW and HIGH."""
-        "*** YOUR CODE HERE ***"
+        c = (low+high)*1.0/2
+        tol = high - c
+        return centered_interval(c, tol)
 
     def center(self):
         """The center of SELF.
@@ -417,7 +422,7 @@ class centered_interval(interval):
         >>> centered_interval(interval(4, 6)).center()
         5.0
         """
-        "*** YOUR CODE HERE ***"
+        return (self.lo + self.hi)*1.0/2
 
     def tolerance(self):
         """The tolerance of SELF.
@@ -426,7 +431,7 @@ class centered_interval(interval):
         >>> centered_interval(interval(4, 6)).tolerance()
         1.0
         """
-        "*** YOUR CODE HERE ***"
+        return self.center() - self.lo
 
     def __str__(self):
         """A string representation of SELF as center +/- tolerance.
@@ -435,14 +440,14 @@ class centered_interval(interval):
         >>> print(centered_interval(interval(4, 6)))
         5.0 +/- 1.0
         """
-        "*** YOUR CODE HERE ***"
+        return "{} +/- {}".format(self.center(), self.tolerance())
 
     def __repr__(self):
         """A string represention of a Python expression that will produce SELF.
         >>> centered_interval(5, 1)
         centered_interval(5.0, 1.0)
         """
-        "*** YOUR CODE HERE ***"
+        return "centered_interval({}, {})".format(self.center(), self.tolerance())
 
 
 ###################
@@ -460,4 +465,6 @@ def make_anonymous_factorial():
     >>> check(HW_SOURCE_FILE, 'make_anonymous_factorial', ['Assign', 'AugAssign', 'FunctionDef', 'Recursion'])
     True
     """
-    return 'YOUR_EXPRESSION_HERE'
+    return (lambda f: lambda k: f(f, k))(lambda f, k: k if k == 1 else mul(k, f(f, sub(k, 1))))
+    # Alternate solution:
+    #   return (lambda f: f(f))(lambda f: lambda x: 1 if x == 0 else x * f(f)(x - 1))

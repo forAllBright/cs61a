@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0c478f2-cc60-485c-a1ed-014c12b3fcd0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/2.8/count_frame.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/2.8/pmz_test.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/cs61a.iml" afterPath="$PROJECT_DIR$/.idea/cs61a.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/homework/hw04/hw04.py" afterPath="$PROJECT_DIR$/homework/hw04/hw04.py" />
-      <change beforePath="$PROJECT_DIR$/homework/hw04/pmz_test.py" afterPath="$PROJECT_DIR$/homework/hw04/pmz_test.py" />
+      <change beforePath="$PROJECT_DIR$/2.8/count_frame.py" afterPath="$PROJECT_DIR$/2.8/count_frame.py" />
+      <change beforePath="$PROJECT_DIR$/2.8/pmz_test.py" afterPath="$PROJECT_DIR$/2.8/pmz_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/cs61a$count_frame.coverage" NAME="count_frame Coverage Results" MODIFIED="1543326443726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.8" />
+    <SUITE FILE_PATH="coverage/cs61a$count_frame.coverage" NAME="count_frame Coverage Results" MODIFIED="1543330089209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.8" />
     <SUITE FILE_PATH="coverage/cs61a$implement.coverage" NAME="implement Coverage Results" MODIFIED="1542789403897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.5" />
     <SUITE FILE_PATH="coverage/cs61a$main1.coverage" NAME="main1 Coverage Results" MODIFIED="1542211295614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.7" />
     <SUITE FILE_PATH="coverage/cs61a$main2__1_.coverage" NAME="main2 (1) Coverage Results" MODIFIED="1542280403788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.7" />
     <SUITE FILE_PATH="coverage/cs61a$pmz_test.coverage" NAME="pmz_test Coverage Results" MODIFIED="1543325410919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/hw04" />
+    <SUITE FILE_PATH="coverage/cs61a$pmz_test__1_.coverage" NAME="pmz_test (1) Coverage Results" MODIFIED="1543330081893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2.8" />
     <SUITE FILE_PATH="coverage/cs61a$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1542194430904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.6" />
     <SUITE FILE_PATH="coverage/cs61a$main4.coverage" NAME="main4 Coverage Results" MODIFIED="1542195812966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.6" />
   </component>
@@ -87,21 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="count_frame.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="count_frame.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2.8/count_frame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="501">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="59" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pmz_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pmz_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.8/pmz_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="254">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="51" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -150,6 +147,7 @@
         <option value="$PROJECT_DIR$/2.5/classAttributes.py" />
         <option value="$PROJECT_DIR$/homework/hw04/pmz_test.py" />
         <option value="$PROJECT_DIR$/homework/hw04/hw04.py" />
+        <option value="$PROJECT_DIR$/2.8/pmz_test.py" />
         <option value="$PROJECT_DIR$/2.8/count_frame.py" />
       </list>
     </option>
@@ -160,7 +158,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="833" />
@@ -269,25 +267,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cs61a" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.7/main1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="main2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,6 +281,25 @@
       <module name="cs61a" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.7/main2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="pmz_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2.8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs61a" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.8/pmz_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,19 +325,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main2 (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.implement" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pmz_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.count_frame" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main2 (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.implement" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pmz_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.count_frame" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pmz_test (1)" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.count_frame" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pmz_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.implement" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main2 (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pmz_test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pmz_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.implement" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -368,14 +366,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="833" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="833" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12911727" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14092141" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14092141" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22961374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -429,17 +427,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/2.8/count_frame.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -916,18 +907,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.8/count_frame.py">
+    <entry file="file://$PROJECT_DIR$/2.8/pmz_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="254">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="51" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.8/pmz_test.py">
+    <entry file="file://$PROJECT_DIR$/2.8/count_frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="501">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="59" selection-end-column="29" />
           <folding />
         </state>
       </provider>

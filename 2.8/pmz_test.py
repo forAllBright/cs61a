@@ -2,7 +2,7 @@
 # @Author: forAllBright
 # @Date:   2018-11-27 21:55:45
 # @Last Modified by:   forAllBright
-# @Last Modified time: 2018-11-27 21:56:56
+# @Last Modified time: 2018-11-28 18:54:34
 ###########################################
 # 在装饰器内部嵌套函数中调用外层传入函数 是装饰前原函数还是装饰后函数 问题
 ###########################################
@@ -59,3 +59,26 @@ print(fi.call_count) #1
 fib = count(fib)
 print(fib(19)) #6765
 print(fib.call_count) #13529
+
+
+
+
+
+
+# coding=utf-8
+from selenium.webdriver import Firefox
+from selenium.webdriver.support.events import EventFiringWebDriver, AbstractEventListener
+class MyListener(AbstractEventListener):
+    def before_navigate_to(self, url, driver):
+        print("Before navigate to %s" % url)
+    def after_navigate_to(self, url, driver):
+        print("After navigate to %s" % url)
+
+driver = Firefox()
+ef_driver=EventFiringWebDriver(driver,MyListener())
+ef_driver.get("http://zhihu.com")
+
+assert "TestArt" in ef_driver.title
+
+ef_driver.close()
+
